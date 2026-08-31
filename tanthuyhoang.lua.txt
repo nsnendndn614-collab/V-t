@@ -1315,7 +1315,7 @@ end
 
 local redzlib = loadstring(game:HttpGet("https://raw.githubusercontent.com/tlredz/Library/refs/heads/main/redz-V5-remake/main.luau"))()
 local Window = redzlib:MakeWindow({
-    Title = "tần thủy hoàng : Blox kid",
+    Title = "redz hub : fake",
     SubTitle = "",
     SaveFolder = "bloxkid"
 })
@@ -1325,7 +1325,7 @@ local Minimizer = Window:NewMinimizer({
 })
 
 local MobileButton = Minimizer:CreateMobileMinimizer({
-  Image = "rbxassetid://85499905225554",
+  Image = "rbxassetid://80424431930361",
   BackgroundColor3 = Color3.fromRGB(0, 255, 254)
 })
 
@@ -11985,8 +11985,16 @@ end
 StartMainLoops()
 
 Window:Notify({
-  Title = "tần thủy thoàng",
-  Content = "tần thủy thoàng",
-  Image = "rbxassetid://85499905225554",
+  Title = "redz fake",
+  Content = "redz fake",
+  Image = "rbxassetid://80424431930361",
   Duration = 5
 })
+
+Window:Notify({
+  Title = "script on top",
+  Content = "redz fake",
+  Image = "rbxassetid://80424431930361",
+  Duration = 5
+})
+
